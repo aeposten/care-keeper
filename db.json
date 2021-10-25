@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Kiri",
-            "image": URL,
+            "image": "./src/petImages/KiriTarot.jpeg",
             "Sex": "Female, spayed",
             "Feeding": "1/4C kibble 2x a day",
             "Medications": "None"
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "name": "Buster",
-            "image": URL,
+            "image": ".src/petImages/Buster.jpg",
             "Sex": "Male, neutered",
             "Feeding": "1/2C prepared food at night",
             "Medications": "None"
@@ -19,11 +19,11 @@
         {
             "id": 3,
             "name": "Noodle",
-            "image": URL,
+            "image": "./src/petImages/noodle.jpg",
             "Sex": "Male",
             "Feeding": "1/2C kibble 2x a day",
             "Medications": "Glucosamine chew at night, Gabapentin 2x a day"
-        },
+        }
     ]
 
 }
