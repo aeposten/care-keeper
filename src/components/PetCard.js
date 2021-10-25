@@ -7,3 +7,4 @@ export default function PetCard() {
         </div>
     )
 }
+

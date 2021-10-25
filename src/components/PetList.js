@@ -1,9 +1,14 @@
-import React from 'react'
 
-export default function PetList() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import React from 'react'
+import PetCard from "./PetCard";
+
+const PetList = () => {
+  return (
+    <>
+      <PetCard />
+    </>
+  );
+};
+
+export default PetList;
+

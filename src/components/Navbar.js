@@ -1,12 +1,14 @@
-import React from 'react'
-import Search from './Search'
-import PetForm from './PetForm'
+const NavBar = () => {
 
-export default function Navbar() {
     return (
-        <div>
-            < Search />
-            < PetForm />
-        </div>
+        <nav>
+        <li>Care Keeper</li>
+        <li>Add a Pet</li>
+        
+        </nav>
+
     )
 }
+
+export default NavBar
+
