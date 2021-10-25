@@ -4,7 +4,8 @@
             "id": 1,
             "name": "Kiri",
             "image": "./src/petImages/KiriTarot.jpeg",
-            "Sex": "Female, spayed",
+            "species" : "Feline",
+            "sex": "Female, spayed",
             "Feeding": "1/4C kibble 2x a day",
             "Medications": "None"
         },
@@ -12,7 +13,8 @@
             "id": 2,
             "name": "Buster",
             "image": ".src/petImages/Buster.jpg",
-            "Sex": "Male, neutered",
+            "species" : "Canine",
+            "sex": "Male, neutered",
             "Feeding": "1/2C prepared food at night",
             "Medications": "None"
         },
@@ -20,7 +22,8 @@
             "id": 3,
             "name": "Noodle",
             "image": "./src/petImages/noodle.jpg",
-            "Sex": "Male",
+            "species" : "Canine",
+            "sex": "Male",
             "Feeding": "1/2C kibble 2x a day",
             "Medications": "Glucosamine chew at night, Gabapentin 2x a day"
         }
