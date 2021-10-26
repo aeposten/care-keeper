@@ -6,6 +6,7 @@ export default function PetCard({ pet }) {
   const toggleVisibleModal = () => {
     setInfoVisible(!infoVisible);
   };
+  
   return (
     <li className="pet-list" onClick={toggleVisibleModal}>
       <img src={pet.image} alt={pet.name} className="pet-pic" />
