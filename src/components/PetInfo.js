@@ -2,7 +2,6 @@ const PetInfo = ({ pet }) => {
   return (
     <div className="pet-content">
       <li>
-        {" "}
         <h4 className="name-info">{pet.name}</h4>
       </li>
       <li>
