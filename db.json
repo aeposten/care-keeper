@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Kiri",
-      "image": "./src/petImages/KiriTarot.jpeg",
+      "image": "./images/KiriTarot.jpeg",
       "species": "Feline",
       "sex": "Female, spayed",
       "Feeding": "1/4C kibble 2x a day",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Buster",
-      "image": ".src/petImages/Buster.jpg",
+      "image": "./images/200.png",
       "species": "Canine",
       "sex": "Male, neutered",
       "Feeding": "1/2C prepared food at night",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Noodle",
-      "image": "./src/petImages/noodle.jpg",
+      "image": "./images/noodle.jpg",
       "species": "Canine",
       "sex": "Male",
       "Feeding": "1/2C kibble 2x a day",
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Magnus",
-      "image": ".src/petImages/magnus.jpg",
+      "image": "./images/magnus.jpg",
       "species": "Canine",
       "sex": "Male, neutered",
       "Feeding": "2 cups kibble 2x per day",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "Charles",
-      "image": ".src/petImages/charles.jpg",
+      "image": "./images/charles.jpeg",
       "species": "Feline",
       "sex": "Female, spayed",
       "Feeding": "1/4 cup kibble 1x per day",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Gilgamesh",
-      "image": ".src/petImages/gilgamesh.jpg",
+      "image": "./images/gilgamesh.jpeg",
       "species": "Feline",
       "sex": "Male, neutered",
       "Feeding": "1/4 cups kibble 2x per day",

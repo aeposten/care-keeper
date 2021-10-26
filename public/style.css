@@ -1,0 +1,21 @@
+.pet-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 5px solid rgb(58, 134, 255);
+}
+
+.pet-list {
+  height: 200px;
+  width: 200px;
+  list-style: none;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.pet-name {
+  text-align: center;
+  margin-top: 0;
+  box-sizing: border-box;
+}

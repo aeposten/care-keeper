@@ -17,7 +17,9 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <PetList />
+      <main>
+        <PetList allPets={allPets} />
+      </main>
     </div>
   );
 }
