@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap");
+
 nav {
-    height: 30px;
+  height: 30px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .nav li {
-display: inline-block;
+  display: inline-block;
 }
 
 .pet-pic {
@@ -29,5 +35,44 @@ display: inline-block;
 }
 
 .title {
-    text-align: right;
+  text-align: right;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(109, 109, 109, 0.7);
+}
+
+.pet-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: rgb(255, 255, 255);
+  padding: 14px 28px;
+  border-radius: 6px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.small-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.pet-content {
+  display: inline-block;
+}
+
+.name-info {
+  font-family: "Pacifico", cursive;
 }

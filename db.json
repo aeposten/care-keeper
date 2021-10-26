@@ -6,8 +6,8 @@
       "image": "./images/KiriTarot.jpeg",
       "species": "Feline",
       "sex": "Female, spayed",
-      "Feeding": "1/4C kibble 2x a day",
-      "Medications": false
+      "feeding": "1/4C kibble 2x a day",
+      "medications": false
     },
     {
       "id": 2,
@@ -15,8 +15,8 @@
       "image": "./images/200.png",
       "species": "Canine",
       "sex": "Male, neutered",
-      "Feeding": "1/2C prepared food at night",
-      "Medications": false
+      "feeding": "1/2C prepared food at night",
+      "medications": false
     },
     {
       "id": 3,
@@ -24,8 +24,8 @@
       "image": "./images/noodle.jpg",
       "species": "Canine",
       "sex": "Male",
-      "Feeding": "1/2C kibble 2x a day",
-      "Medications": "Glucosamine chew at night, Gabapentin 2x a day"
+      "feeding": "1/2C kibble 2x a day",
+      "medications": "Glucosamine chew at night, Gabapentin 2x a day"
     },
     {
       "id": 4,
@@ -33,8 +33,8 @@
       "image": "./images/magnus.jpg",
       "species": "Canine",
       "sex": "Male, neutered",
-      "Feeding": "2 cups kibble 2x per day",
-      "Medications": false
+      "feeding": "2 cups kibble 2x per day",
+      "medications": false
     },
     {
       "id": 5,
@@ -42,8 +42,8 @@
       "image": "./images/charles.jpeg",
       "species": "Feline",
       "sex": "Female, spayed",
-      "Feeding": "1/4 cup kibble 1x per day",
-      "Medications": false
+      "feeding": "1/4 cup kibble 1x per day",
+      "medications": false
     },
     {
       "id": 6,
@@ -51,8 +51,8 @@
       "image": "./images/gilgamesh.jpeg",
       "species": "Feline",
       "sex": "Male, neutered",
-      "Feeding": "1/4 cups kibble 2x per day",
-      "Medications": "Prednisolone 1x per day"
+      "feeding": "1/4 cups kibble 2x per day",
+      "medications": "Prednisolone 1x per day"
     }
   ]
 }
