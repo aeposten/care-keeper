@@ -8,9 +8,9 @@ const PetInfo = ({ pet }) => {
       <li>
         <img src={pet.image} className="small-image" />
       </li>
-      <li>{pet.species}</li>
-      <li>{pet.feeding}</li>
-      <li>{pet.medications}</li>
+      <li>Species: {pet.species}</li>
+      <li>Food: {pet.feeding}</li>
+      <li>Meds: {pet.medications}</li>
     </div>
   );
 };
