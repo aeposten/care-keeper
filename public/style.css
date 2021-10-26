@@ -1,3 +1,11 @@
+nav {
+    height: 30px;
+}
+
+.nav li {
+display: inline-block;
+}
+
 .pet-pic {
   height: 200px;
   width: 200px;
@@ -18,4 +26,8 @@
   text-align: center;
   margin-top: 0;
   box-sizing: border-box;
+}
+
+.title {
+    text-align: right;
 }

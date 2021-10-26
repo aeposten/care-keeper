@@ -2,9 +2,10 @@ const NavBar = () => {
 
     return (
         <nav>
-        <li>Care Keeper</li>
+        <ul className="nav"> 
+        <li className="title">Care Keeper</li>
         <li>Add a Pet</li>
-        
+        </ul>
         </nav>
 
     )
