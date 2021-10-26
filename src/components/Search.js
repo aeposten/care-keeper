@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-export default function Search() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Search = ({ search, handleSearch }) => {
+  return (
+    <div>
+      <input
+        placeholder="Search by name"
+        className="search"
+        onChange={handleSearch}
+        value={search}
+      />
+    </div>
+  );
+};
+
+export default Search;

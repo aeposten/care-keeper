@@ -4,6 +4,11 @@ import Header from "./Header";
 
 function App() {
   const [allPets, setAllPets] = useState([]);
+  const [search, setSearch] = useState("");
+
+  const handleSearch = (e) => {
+    setSearch(e.target.value.toLowerCase());
+  };
 
   useEffect(() => {
     fetch("http://localhost:5000/pets")
@@ -15,10 +20,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        <Header search={search} handleSearch={handleSearch} />
       </header>
       <main>
-        <PetList allPets={allPets} />
+        <PetList allPets={allPets} search={search} />
       </main>
     </div>
   );

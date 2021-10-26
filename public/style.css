@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
 nav {
-  height: 30px;
+  height: 40px;
+  background-color: rgb(58, 134, 255);
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 54, 158);
 }
 
 .nav li {
@@ -26,10 +34,13 @@ body {
   list-style: none;
   display: inline-block;
   box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
 }
 
 .pet-name {
   text-align: center;
+  width: 200px;
   margin-top: 0;
   box-sizing: border-box;
 }
@@ -38,6 +49,14 @@ body {
   text-align: right;
   font-family: "Pacifico", cursive;
   font-size: 20px;
+  margin: 10px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255),;
+  color: rgb(58, 134, 255);
+  text-shadow:  
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255), 
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
 }
 
 .overlay {
@@ -57,7 +76,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: rgb(255, 255, 255);
+  background: rgb(58, 134, 255);;
   padding: 14px 28px;
   border-radius: 6px;
   max-width: 600px;
@@ -68,6 +87,7 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
 }
 .pet-content {
   display: inline-block;
@@ -75,4 +95,8 @@ body {
 
 .name-info {
   font-family: "Pacifico", cursive;
+}
+
+.search {
+    margin: 15px;
 }

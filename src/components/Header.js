@@ -1,13 +1,11 @@
 import NavBar from "./Navbar";
 
-const Header = () => {
+const Header = ({ search, handleSearch }) => {
+  return (
+    <>
+      <NavBar search={search} handleSearch={handleSearch} />
+    </>
+  );
+};
 
-    return (
-        <>
-        <NavBar />
-        </>
-    )
-}
-
-export default Header
-
+export default Header;

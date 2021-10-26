@@ -1,12 +1,14 @@
 import React from "react";
 import PetCard from "./PetCard";
 
-const PetList = ({allPets}) => {
+const PetList = ({ allPets, search }) => {
   return (
     <ul className="pets">
-      {allPets.map((pet) => (
-        <PetCard pet={pet} key={pet.id} />
-      ))}
+      {allPets
+        .filter((pet) => pet.name.toLowerCase().includes(search))
+        .map((pet) => (
+          <PetCard pet={pet} key={pet.id} />
+        ))}
     </ul>
   );
 };

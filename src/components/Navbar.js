@@ -1,15 +1,16 @@
-const NavBar = () => {
-
-    return (
-        <nav>
-        <ul className="nav"> 
+import Search from "./Search";
+const NavBar = ({ search, handleSearch }) => {
+  return (
+    <nav>
+      <ul className="nav">
         <li className="title">Care Keeper</li>
         <li>Add a Pet</li>
-        </ul>
-        </nav>
+        <li>
+          <Search search={search} handleSearch={handleSearch} />
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-    )
-}
-
-export default NavBar
-
+export default NavBar;
