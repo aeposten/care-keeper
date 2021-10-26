@@ -53,6 +53,14 @@
       "sex": "Male, neutered",
       "feeding": "1/4 cups kibble 2x per day",
       "medications": "Prednisolone 1x per day"
+    },
+    {
+      "id": 7,
+      "name": "Simon",
+      "image": "./images/Simon.jpg",
+      "species": "Exotic",
+      "feeding": "1 small mouse 1x per week",
+      "medications": false
     }
   ]
 }
