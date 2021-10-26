@@ -1,32 +1,58 @@
 {
-    "pets" : [
-        {
-            "id": 1,
-            "name": "Kiri",
-            "image": "./src/petImages/KiriTarot.jpeg",
-            "species" : "Feline",
-            "sex": "Female, spayed",
-            "Feeding": "1/4C kibble 2x a day",
-            "Medications": "None"
-        },
-        {
-            "id": 2,
-            "name": "Buster",
-            "image": ".src/petImages/Buster.jpg",
-            "species" : "Canine",
-            "sex": "Male, neutered",
-            "Feeding": "1/2C prepared food at night",
-            "Medications": "None"
-        },
-        {
-            "id": 3,
-            "name": "Noodle",
-            "image": "./src/petImages/noodle.jpg",
-            "species" : "Canine",
-            "sex": "Male",
-            "Feeding": "1/2C kibble 2x a day",
-            "Medications": "Glucosamine chew at night, Gabapentin 2x a day"
-        }
-    ]
-
+  "pets": [
+    {
+      "id": 1,
+      "name": "Kiri",
+      "image": "./src/petImages/KiriTarot.jpeg",
+      "species": "Feline",
+      "sex": "Female, spayed",
+      "Feeding": "1/4C kibble 2x a day",
+      "Medications": false
+    },
+    {
+      "id": 2,
+      "name": "Buster",
+      "image": ".src/petImages/Buster.jpg",
+      "species": "Canine",
+      "sex": "Male, neutered",
+      "Feeding": "1/2C prepared food at night",
+      "Medications": false
+    },
+    {
+      "id": 3,
+      "name": "Noodle",
+      "image": "./src/petImages/noodle.jpg",
+      "species": "Canine",
+      "sex": "Male",
+      "Feeding": "1/2C kibble 2x a day",
+      "Medications": "Glucosamine chew at night, Gabapentin 2x a day"
+    },
+    {
+      "id": 4,
+      "name": "Magnus",
+      "image": ".src/petImages/magnus.jpg",
+      "species": "Canine",
+      "sex": "Male, neutered",
+      "Feeding": "2 cups kibble 2x per day",
+      "Medications": false
+    },
+    {
+      "id": 5,
+      "name": "Charles",
+      "image": ".src/petImages/charles.jpg",
+      "species": "Feline",
+      "sex": "Female, spayed",
+      "Feeding": "1/4 cup kibble 1x per day",
+      "Medications": false
+    },
+    {
+      "id": 6,
+      "name": "Gilgamesh",
+      "image": ".src/petImages/gilgamesh.jpg",
+      "species": "Feline",
+      "sex": "Male, neutered",
+      "Feeding": "1/4 cups kibble 2x per day",
+      "Medications": "Prednisolone 1x per day"
+    }
+  ]
 }
