@@ -61,6 +61,15 @@
       "species": "Exotic",
       "feeding": "1 small mouse 1x per week",
       "medications": false
+    },
+    {
+      "name": "Pete the Cat",
+      "image": "./images/pete.jpg",
+      "species": "Feline",
+      "sex": "Male",
+      "feeding": "apples and oranges",
+      "medications": "",
+      "id": 8
     }
   ]
 }

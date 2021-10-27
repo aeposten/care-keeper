@@ -101,3 +101,7 @@ body {
     margin: 15px;
     color: rgb(0, 54, 158);
 }
+
+.pet-form input {
+    color: rgb(0, 54, 158); 
+}

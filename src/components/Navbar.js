@@ -2,7 +2,7 @@ import Search from "./Search";
 import PetForm from "./PetForm";
 import { useState } from "react";
 
-const NavBar = ({ search, handleSearch }) => {
+const NavBar = ({ search, handleSearch, addPet }) => {
   const [formVisible, setFormVisible] = useState(false);
   const toggleVisibleForm = () => {
     setFormVisible(!formVisible);
@@ -12,14 +12,17 @@ const NavBar = ({ search, handleSearch }) => {
     <nav>
       <ul className="nav">
         <li className="title">Care Keeper</li>
-        <li onClick={toggleVisibleForm}>
-          Add a Pet
-          {formVisible && (
-            <div className="overlay">
-              <PetForm className="pet-info-modal" />
+        <li onClick={toggleVisibleForm}>Add a Pet </li>
+
+        {formVisible && (
+          <>
+            <div className="overlay" onClick={toggleVisibleForm}>
+              {" "}
             </div>
-          )}
-        </li>
+            <PetForm className="pet-info-modal" addPet={addPet} />
+          </>
+        )}
+
         <li>
           <Search search={search} handleSearch={handleSearch} />
         </li>

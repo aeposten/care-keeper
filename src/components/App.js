@@ -10,6 +10,10 @@ function App() {
     setSearch(e.target.value.toLowerCase());
   };
 
+  const addPet = (newPet) => {
+    setAllPets([...allPets, newPet]);
+  };
+
   useEffect(() => {
     fetch("http://localhost:5000/pets")
       .then((response) => response.json())
@@ -17,10 +21,11 @@ function App() {
         setAllPets(allPets);
       });
   }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <Header search={search} handleSearch={handleSearch} />
+        <Header search={search} handleSearch={handleSearch} addPet={addPet} />
       </header>
       <main>
         <PetList allPets={allPets} search={search} />
