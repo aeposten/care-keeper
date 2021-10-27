@@ -10,7 +10,7 @@ const PetInfo = ({ pet }) => {
       </li>
       <li>Species: {pet.species}</li>
       <li>Food: {pet.feeding}</li>
-      <li>Meds: {pet.medications}</li>
+      <li>{pet.medications}</li>
     </div>
   );
 };
