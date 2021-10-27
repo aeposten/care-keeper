@@ -55,12 +55,12 @@
       "medications": "Prednisolone 1x per day"
     },
     {
-        "id": 7,
-        "name": "Simon",
-        "image": "./images/Simon.jpg",
-        "species": "Exotic",
-        "feeding": "1 small mouse 1x per week",
-        "medications": false
+      "id": 7,
+      "name": "Simon",
+      "image": "./images/Simon.jpg",
+      "species": "Exotic",
+      "feeding": "1 small mouse 1x per week",
+      "medications": false
     }
   ]
 }
