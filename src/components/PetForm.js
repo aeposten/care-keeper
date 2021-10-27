@@ -47,14 +47,12 @@ const PetForm = ({ addPet }) => {
           type="text"
           name="name"
           placeholder="Pet Name"
-        //   value={FormData.name}
           onChange={handleChange}
         />
         <input
           type="text"
           name="image"
           placeholder="Image URL"
-        //   value={FormData.image}
           onChange={handleChange}
         />
 
@@ -62,7 +60,6 @@ const PetForm = ({ addPet }) => {
           type="text"
           name="species"
           placeholder="Pet Species"
-        //   value={FormData.species}
           onChange={handleChange}
         />
 
@@ -70,7 +67,6 @@ const PetForm = ({ addPet }) => {
           type="text"
           name="sex"
           placeholder="Pet Sex"
-        //   value={FormData.sex}
           onChange={handleChange}
         />
 
@@ -78,7 +74,6 @@ const PetForm = ({ addPet }) => {
           type="text"
           name="feeding"
           placeholder="Diet Information"
-        //   value={FormData.feeding}
           onChange={handleChange}
         />
 
@@ -86,7 +81,6 @@ const PetForm = ({ addPet }) => {
           type="text"
           name="medications"
           placeholder="Medications"
-        //   value={FormData.medications}
           onChange={handleChange}
         />
       </form>

@@ -70,6 +70,33 @@
       "feeding": "apples and oranges",
       "medications": "",
       "id": 8
+    },
+    {
+      "name": "Juliette",
+      "image": "./images/juliette.jpg",
+      "species": "Canine",
+      "sex": "Female Spayed",
+      "feeding": "Kibble and Hugs",
+      "medications": "",
+      "id": 9
+    },
+    {
+      "name": "Cranberry",
+      "image": "./images/cranberry.jpg",
+      "species": "Feline",
+      "sex": "Female Spayed",
+      "feeding": "Fancy Cat Food 1 can 1x per day",
+      "medications": "",
+      "id": 10
+    },
+    {
+      "name": "Lucy",
+      "image": "./images/lucy.jpg",
+      "species": "Feline",
+      "sex": "Female Spayed",
+      "feeding": "Fancy Cat Food 1 can 1x per day",
+      "medications": "",
+      "id": 11
     }
   ]
 }
