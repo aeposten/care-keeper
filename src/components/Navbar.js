@@ -33,7 +33,7 @@ const NavBar = ({ search, handleSearch, addPet }) => {
           <div className="overlay" onClick={toggleVisibleForm}>
             {" "}
           </div>
-          <PetForm className="pet-info-modal" addPet={addPet} />
+          <PetForm className="pet-info-modal" addPet={addPet} toggleVisibleForm={toggleVisibleForm} />
         </>
       )}
     </>

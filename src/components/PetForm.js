@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PetForm = ({ addPet }) => {
+const PetForm = ({ addPet, toggleVisibleForm }) => {
   const [formData, setFormData] = useState({
     name: "",
     image: "",
@@ -11,7 +11,7 @@ const PetForm = ({ addPet }) => {
   });
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     const newPet = {
       name: formData.name,
       image: formData.image,
@@ -91,7 +91,14 @@ const PetForm = ({ addPet }) => {
           onChange={handleChange}
         />
       </form>
-      <button onClick={handleSubmit}>Submit</button>
+      <button
+        onClick={() => {
+          handleSubmit();
+          toggleVisibleForm();
+        }}
+      >
+        Submit
+      </button>
     </div>
   );
 };
