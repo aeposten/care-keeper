@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Header from "./Header";
 import PetList from "./PetList";
 import Resources from "./Resources";
@@ -7,7 +7,7 @@ import About from "./About";
 
 function App() {
   const [allPets, setAllPets] = useState([]);
-  const [petArray, setPetArray] = useState(allPets)
+  const [petArray, setPetArray] = useState(allPets);
   const [search, setSearch] = useState("");
 
   const handleSearch = (e) => {
@@ -43,7 +43,11 @@ function App() {
       </header>
       <main>
         <Route path="/" exact>
-          <PetList allPets={allPets} search={search} handleDelete={handleDelete}/>
+          <PetList
+            allPets={allPets}
+            search={search}
+            handleDelete={handleDelete}
+          />
         </Route>
         <p>
           <Route path="/resources" component={Resources} />

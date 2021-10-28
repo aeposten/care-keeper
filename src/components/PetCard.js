@@ -3,21 +3,12 @@ import PetInfo from "./PetInfo";
 
 export default function PetCard({ pet, handleDelete }) {
   const [infoVisible, setInfoVisible] = useState(false);
-  // const [petArray, setPetArray] = useState(pet);
+
 
   const toggleVisibleModal = () => {
     setInfoVisible(!infoVisible);
   };
 
-  // const handleDelete = (deletedPet) => {
-  //   fetch(`http://localhost:5000/pets/${deletedPet.id}`, {
-  //     method: "Delete",
-  //     headers: { "Content-Type": "application/json" },
-  //   }).then(() => {
-  //     const newPetArray = petArray.filter((pet) => pet.id !== deletedPet.id);
-  //     setPetArray(newPetArray);
-  //   });
-  // };
 
   return (
     <div className="pet-list">
