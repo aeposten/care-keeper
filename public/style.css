@@ -7,8 +7,12 @@
 }
 
 nav {
-  height: 40px;
+  height: 45px;
+  width: 100%;
   background-color: rgb(58, 134, 255);
+  position: fixed;
+  top: 0;
+
 }
 
 body {
@@ -16,8 +20,13 @@ body {
   background-color: rgb(0, 54, 158);
 }
 
+main {
+    margin-top: 40px;
+}
+
 .nav li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .pet-pic {
@@ -48,8 +57,8 @@ body {
 .title {
   text-align: right;
   font-family: "Pacifico", cursive;
-  font-size: 20px;
-  margin: 10px;
+  font-size: 30px;
+  margin: 0px;
   -webkit-text-stroke: 1px rgb(255, 255, 255),;
   color: rgb(58, 134, 255);
   text-shadow:  
@@ -91,6 +100,10 @@ body {
 }
 .pet-content {
   display: inline-block;
+}
+
+.pet-info-modal {
+    position: absolute;
 }
 
 .name-info {

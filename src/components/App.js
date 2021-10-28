@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
-import PetList from "./PetList";
+import { Route, Switch } from "react-router-dom";
 import Header from "./Header";
+import PetList from "./PetList";
+import Resources from "./Resources";
+import About from "./About";
 
 function App() {
   const [allPets, setAllPets] = useState([]);
@@ -28,7 +31,15 @@ function App() {
         <Header search={search} handleSearch={handleSearch} addPet={addPet} />
       </header>
       <main>
-        <PetList allPets={allPets} search={search} />
+        <Route path="/" exact>
+          <PetList allPets={allPets} search={search} />
+        </Route>
+        <p>
+          <Route path="/resources" component={Resources} />
+        </p>
+        <p>
+          <Route path="/about" component={About} />
+        </p>
       </main>
     </div>
   );
