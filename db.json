@@ -97,6 +97,15 @@
       "feeding": "Fancy Cat Food 1 can 1x per day",
       "medications": "",
       "id": 11
+    },
+    {
+      "name": "New Pet",
+      "image": "./images/200.png",
+      "species": "",
+      "sex": "",
+      "feeding": "",
+      "medications": false,
+      "id": 12
     }
   ]
 }

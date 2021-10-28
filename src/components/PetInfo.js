@@ -1,4 +1,4 @@
-const PetInfo = ({ pet, handleDelete }) => {
+const PetInfo = ({ pet, handleDelete, toggleVisibleModal }) => {
   return (
     <div className="pet-content">
       <li>
@@ -11,7 +11,14 @@ const PetInfo = ({ pet, handleDelete }) => {
       <li>Food: {pet.feeding}</li>
       {pet.medications ? <li>Medications: {pet.medications}</li> : null}
       <li>
-        <button onClick={() => handleDelete(pet)}>Delete Pet</button>
+        <button
+          onClick={() => {
+            handleDelete(pet);
+            toggleVisibleModal();
+          }}
+        >
+          Delete Pet
+        </button>
       </li>
     </div>
   );

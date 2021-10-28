@@ -29,7 +29,12 @@ export default function PetCard({ pet, handleDelete }) {
       {infoVisible && (
         <>
           <div className="overlay" onClick={toggleVisibleModal}></div>
-          <PetInfo className="pet-info-modal" pet={pet} handleDelete={handleDelete} />
+          <PetInfo
+            className="pet-info-modal"
+            pet={pet}
+            handleDelete={handleDelete}
+            toggleVisibleModal={toggleVisibleModal}
+          />
         </>
       )}
     </div>
