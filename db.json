@@ -59,6 +59,7 @@
       "name": "Simon",
       "image": "./images/Simon.jpg",
       "species": "Exotic",
+      "sex": "Male",
       "feeding": "1 small mouse 1x per week",
       "medications": false
     },
@@ -75,7 +76,7 @@
       "name": "Juliette",
       "image": "./images/juliette.jpg",
       "species": "Canine",
-      "sex": "Female Spayed",
+      "sex": "Female, spayed",
       "feeding": "Kibble and Hugs",
       "medications": "",
       "id": 9
@@ -84,7 +85,7 @@
       "name": "Cranberry",
       "image": "./images/cranberry.jpg",
       "species": "Feline",
-      "sex": "Female Spayed",
+      "sex": "Female, spayed",
       "feeding": "Fancy Cat Food 1 can 1x per day",
       "medications": "",
       "id": 10
@@ -93,7 +94,7 @@
       "name": "Lucy",
       "image": "./images/lucy.jpg",
       "species": "Feline",
-      "sex": "Female Spayed",
+      "sex": "Female, spayed",
       "feeding": "Fancy Cat Food 1 can 1x per day",
       "medications": "",
       "id": 11

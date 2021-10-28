@@ -18,7 +18,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/pets")
+    fetch("http://localhost:3000/pets")
       .then((response) => response.json())
       .then((allPets) => {
         setAllPets(allPets);
