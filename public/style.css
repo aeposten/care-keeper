@@ -102,10 +102,13 @@ button {
 }
 
 .small-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255)
 }
 .pet-content {
   display: inline-block;
@@ -117,12 +120,13 @@ button {
 
 .name-info {
   font-family: "Pacifico", cursive;
+  text-align: center;
 }
 
 .search {
   color: rgb(255, 255, 255);; 
   border:solid 2px rgb(255, 255, 255);
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: rgb(58, 134, 255);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -131,15 +135,14 @@ button {
 .search input {
   margin-right: 10px;
     color: rgb(255, 255, 255); 
-    border:none;
-    border-bottom: solid 2px rgb(255, 255, 255);
-    border-radius: 2px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
 }
 
 .search input::placeholder{
   color: rgb(255, 255, 255);; 
-  border:none;
+  border:solid 2px rgb(255, 255, 255);
   background-color: rgb(58, 134, 255);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;

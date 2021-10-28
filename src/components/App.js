@@ -7,6 +7,7 @@ import About from "./About";
 
 function App() {
   const [allPets, setAllPets] = useState([]);
+  const [petArray, setPetArray] = useState(allPets)
   const [search, setSearch] = useState("");
 
   const handleSearch = (e) => {
@@ -25,6 +26,16 @@ function App() {
       });
   }, []);
 
+  const handleDelete = (deletedPet) => {
+    fetch(`http://localhost:5000/pets/${deletedPet.id}`, {
+      method: "Delete",
+      headers: { "Content-Type": "application/json" },
+    }).then(() => {
+      const newPetArray = petArray.filter((pets) => pets.id !== deletedPet.id);
+      setPetArray(newPetArray);
+    });
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -32,7 +43,7 @@ function App() {
       </header>
       <main>
         <Route path="/" exact>
-          <PetList allPets={allPets} search={search} />
+          <PetList allPets={allPets} search={search} handleDelete={handleDelete}/>
         </Route>
         <p>
           <Route path="/resources" component={Resources} />

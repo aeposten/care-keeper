@@ -1,4 +1,4 @@
-const PetInfo = ({ pet }) => {
+const PetInfo = ({ pet, handleDelete }) => {
   return (
     <div className="pet-content">
       <li>
@@ -10,6 +10,9 @@ const PetInfo = ({ pet }) => {
       <li>Species: {pet.species}</li>
       <li>Food: {pet.feeding}</li>
       {pet.medications ? <li>Medications: {pet.medications}</li> : null}
+      <li>
+        <button onClick={() => handleDelete(pet)}>Delete Pet</button>
+      </li>
     </div>
   );
 };
