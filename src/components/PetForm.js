@@ -7,7 +7,7 @@ const PetForm = ({ addPet }) => {
     species: "",
     sex: "",
     feeding: "",
-    medications: "",
+    medications: false,
   });
 
   const handleSubmit = (e) => {
@@ -20,7 +20,14 @@ const PetForm = ({ addPet }) => {
       feeding: formData.feeding,
       medications: formData.medications,
     };
-
+    setFormData({
+      name: "",
+      image: "",
+      species: "",
+      sex: "",
+      feeding: "",
+      medications: false,
+    });
     fetch("http://localhost:5000/pets", {
       method: "Post",
       headers: {

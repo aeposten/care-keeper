@@ -120,8 +120,29 @@ button {
 }
 
 .search {
-    margin: 15px;
-    color: rgb(0, 54, 158);
+  color: rgb(255, 255, 255);; 
+  border:solid 2px rgb(255, 255, 255);
+  border-radius: 2px;
+  background-color: rgb(58, 134, 255);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.search input {
+  margin-right: 10px;
+    color: rgb(255, 255, 255); 
+    border:none;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search input::placeholder{
+  color: rgb(255, 255, 255);; 
+  border:none;
+  background-color: rgb(58, 134, 255);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .pet-form input {
