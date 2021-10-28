@@ -41,7 +41,7 @@ const PetForm = ({ addPet }) => {
 
   return (
     <div className="pet-content">
-      <h4>Add New Pet</h4>
+      <h4 className="add-pet">Add New Pet</h4>
       <form onSubmit={handleSubmit} className="pet-form">
         <input
           type="text"
@@ -85,7 +85,6 @@ const PetForm = ({ addPet }) => {
         />
       </form>
       <button onClick={handleSubmit}>Submit</button>
-      <div>Click to close</div>
     </div>
   );
 };
