@@ -7,7 +7,7 @@ import About from "./About";
 
 function App() {
   const [allPets, setAllPets] = useState([]);
-  const [petArray, setPetArray] = useState(allPets);
+  // const [petArray, setPetArray] = useState(allPets);
   const [search, setSearch] = useState("");
 
   const handleSearch = (e) => {
@@ -31,11 +31,11 @@ function App() {
       method: "Delete",
       headers: { "Content-Type": "application/json" },
     }).then(() => {
-      const newPetArray = petArray.filter((pets) => pets.id !== deletedPet.id);
-      setPetArray(newPetArray);
+      const updatedPets = allPets.filter((pet) => pet.id !== deletedPet.id);
+      setAllPets(updatedPets);
     });
   };
-
+ 
   return (
     <div className="App">
       <header className="App-header">
