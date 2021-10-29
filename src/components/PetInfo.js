@@ -8,6 +8,7 @@ const PetInfo = ({ pet, handleDelete, toggleVisibleModal }) => {
         <img src={pet.image} className="small-image" alt={pet.name} />
       </li>
       <li>Species: {pet.species}</li>
+      <li> M/F: {pet.sex} </li>
       <li>Food: {pet.feeding}</li>
       {pet.medications ? <li>Medications: {pet.medications}</li> : null}
       <li>
