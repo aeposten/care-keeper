@@ -68,7 +68,8 @@ export default Resources;
 const ResourcesContainer = styled.div`
   border: solid 5px #3a86ff;
   border-radius: 40px;
+  height: 60%;
+  width: 80%;
   padding: 25px;
-  margin-right: 500px;
   margin-top: 50px;
 `;

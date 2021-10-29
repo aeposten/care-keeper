@@ -33,6 +33,11 @@ button {
   padding: 4px;
 }
 
+::placeholder {
+  color: rgb(0, 54, 158); 
+}
+
+
 .nav li {
   display: inline-block;
   margin-right: 10px;
@@ -167,4 +172,10 @@ button {
 
 .add-pet {
   font-family: "Pacifico", cursive;
+}
+
+.delete {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

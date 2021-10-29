@@ -12,7 +12,7 @@ const PetInfo = ({ pet, handleDelete, toggleVisibleModal }) => {
       <li>Food: {pet.feeding}</li>
       {pet.medications ? <li>Medications: {pet.medications}</li> : null}
       <li>
-        <button
+        <button className="delete"
           onClick={() => {
             handleDelete(pet);
             toggleVisibleModal();

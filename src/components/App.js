@@ -19,7 +19,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3000/pets")
+    fetch("http://localhost:5000/pets")
       .then((response) => response.json())
       .then((allPets) => {
         setAllPets(allPets);
@@ -35,7 +35,7 @@ function App() {
       setAllPets(updatedPets);
     });
   };
- 
+
   return (
     <div className="App">
       <header className="App-header">
